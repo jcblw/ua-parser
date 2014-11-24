@@ -1,5 +1,5 @@
 {
-  "name": "ua-parser",
+  "name": "browserify-ua-parser",
   "description": "A port of Browserscope's user agent parser.",
   "main": "./js/index",
   "version": "0.3.4",

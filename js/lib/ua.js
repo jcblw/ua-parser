@@ -9,7 +9,7 @@ function UA(family, major, minor, patch) {
   this.patch = patch || null;
 }
 
-require('util').inherits(UA, OS)
+UA.prototype = Object.create( OS );
 
 function _makeParsers(obj) {
   var regexp = new RegExp(obj.regex),
